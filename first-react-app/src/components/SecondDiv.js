@@ -7,6 +7,7 @@ import { OpenPopUp, ClosePopUp } from "../helpers/PopUp";
 const SecondDiv = () => {
   const slideContainer = document.querySelectorAll(".slider");
   for (let i = 0; i < slideContainer.length; i++) {
+    console.log(slideContainer.length);
     const slider = function () {
       const slides = slideContainer[i].querySelectorAll(".slide");
       const btnLeft = slideContainer[i].querySelector(".slider__btn--left");
